@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include <SDK/Math/Math.h>
+#include "../SDK/Math/Math.h"
 
 struct SNetMessageDef;
 struct SNetProtocolDef;

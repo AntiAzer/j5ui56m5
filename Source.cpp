@@ -4,8 +4,8 @@
 // author - saurux | 2023
 // discord: _saurux
 
-#include <Streams/CGeneralStream.hpp>
-
+#include "Streams/CGeneralStream.hpp"
+ 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD64 dwReason, LPVOID lpReserved)
 {
     if (dwReason == DLL_PROCESS_ATTACH) {

@@ -3,7 +3,7 @@
 #pragma comment(lib, "Zydis.lib")
 #pragma comment(lib, "HookLib.lib")
 
-#include <Hook/HookLib/HookLib.h>
+#include "../Hook/HookLib/HookLib.h"
 
 #include "IRMIMessageBody.h"
 

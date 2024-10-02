@@ -19,7 +19,7 @@
 //#include <Lmcons.h>
 //#include <shlobj.h>
 
-#include <Render/Menu.hpp>
+#include "../Render/Menu.hpp"
 
 /*
 int my_image_width = 0;

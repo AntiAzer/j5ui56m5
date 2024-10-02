@@ -1,10 +1,10 @@
-#include <Header/Header.hpp>
+#include "../Header/Header.hpp"
 
-#include <Streams/CAimHandler.hpp>
-#include <Streams/CGameHandler.hpp>
-#include <Streams/CSM_Handlers.hpp>
-#include <Streams/CVisualHandler.hpp>
-#include <Streams/CWeaponHandler.hpp>
+#include "../Streams/CAimHandler.hpp"
+#include "../Streams/CGameHandler.hpp"
+#include "../Streams/CSM_Handlers.hpp"
+#include "../Streams/CVisualHandler.hpp"
+#include "../Streams/CWeaponHandler.hpp"
 
 // hooks
 VMTHookManager* iPresent = new VMTHookManager();

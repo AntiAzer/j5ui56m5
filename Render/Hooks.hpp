@@ -1,6 +1,6 @@
 #pragma once
-#include <Hook/vmthook.h>
-#include <Render/Imgui.hpp>
+#include "../Hook/vmthook.h"
+#include "../Render/Imgui.hpp"
 
 #define STB_IMAGE_IMPLEMENTATION
 

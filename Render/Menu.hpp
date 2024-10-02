@@ -3,20 +3,20 @@
 #include <Windows.h>
 #define STB_IMAGE_IMPLEMENTATION
 
-#include <Settings/Sakura.hpp>
+#include "../Settings/Sakura.hpp"
 
-#include <Render/imgui/stb_image.h>
-#include <Render/imgui/imgui.h>
-#include <Render/imgui/imgui_impl_dx11.h>
-#include <Render/imgui/imgui_impl_win32.h>
-#include <Render/imgui/imgui_internal.h>
+#include "../Render/imgui/stb_image.h"
+#include "../Render/imgui/imgui.h"
+#include "../Render/imgui/imgui_impl_dx11.h"
+#include "../Render/imgui/imgui_impl_win32.h"
+#include "../Render/imgui/imgui_internal.h"
 
-#include <Render/font/FA6PRO.h>
-#include <Render/font/Regular.h>
-#include <Render/font/Icons.h>
-#include <Render/images/logo.h>
+#include "../Render/font/FA6PRO.h"
+#include "../Render/font/Regular.h"
+#include "../Render/font/Icons.h"
+#include "../Render/images/logo.h"
 
-#include <Functions/Extractor.hpp>
+#include "../Functions/Extractor.hpp"
 
 #include <d3d11.h>
 

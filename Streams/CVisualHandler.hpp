@@ -1,17 +1,17 @@
 #pragma once
 
-#include <Settings/Sakura.hpp>
+#include "Settings/Sakura.hpp"
 
-#include <SDK/Math/Math.h>
+#include "SDK/Math/Math.h"
 
-#include <SDK/SSystemGlobalEnvironment.h>
-#include <SDK/CGame.h>
-#include <SDK/CGameFramework.h>
-#include <SDK/CActorSystem.h>
-#include <SDK/CActor.h>
-#include <SDK/CEntitySystem.h>
-#include <SDK/CEntityIterator.h>
-#include <SDK/CEntity.h>
+#include "SDK/SSystemGlobalEnvironment.h"
+#include "SDK/CGame.h"
+#include "SDK/CGameFramework.h"
+#include "SDK/CActorSystem.h"
+#include "SDK/CActor.h"
+#include "SDK/CEntitySystem.h"
+#include "SDK/CEntityIterator.h"
+#include "SDK/CEntity.h"
 
 void SetVisionParams(CEntity* pEntity, Color_tpl<float>* color, EHUDSilhouetteVisibility type, bool bDisableAtMin = false, float nearDist = 1000.f) {
 	CallFunction<void(__fastcall*)(DWORD64, int, Color_tpl<float>*, bool, float)>(Off_SetVisionParams)(0, pEntity->GetEntityId(), color, bDisableAtMin, nearDist);

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <SDK/CRenderer.h>
+#include "../SDK/CRenderer.h"
 
 class CSystem
 {
